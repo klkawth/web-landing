@@ -1,8 +1,12 @@
 // import images
 // import LogoImg from '../src/assets/img/header/logo.svg';
 import LogoImg from '../src/assets/img/header/logo.png';
+import LogoImg2 from '../src/assets/img/klawth_logo_klawth.png';
+
 // import HeroImg from '../src/assets/img/hero/image.svg';
+// import HeroImg from '../src/assets/img/home.gif';
 import HeroImg from '../src/assets/img/hero/home.mp4';
+
 import OverviewProductImg from '../src/assets/img/overview/product.svg';
 // import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
 // import GoogleImg from '../src/assets/img/overview/brands/google.svg';
@@ -51,21 +55,21 @@ import Ecelliitbhu from '../src/assets/img/overview/brands/ecell.webp';
 
 
 export const header = {
-  logo: LogoImg,
+  logo: LogoImg2,
   btnText: ' Download App',
 };
 
 export const nav = [
-  { name: 'Blogs', href: 'https://nogozo.com/blog/' },
-  { name: 'Terms & Conditions', href: 'https://nogozo.com/tnc/' },
-  { name: 'Careers', href: 'https://www.linkedin.com/company/nogozocare/jobs/' },
-  { name: 'Business Queries', href: 'https://api.whatsapp.com/send?text=Hi NOGOZO! I want to become Seller at NOGOZO Buy NOGOZO-Franchise Upgrade my Bookstore&phone=918979497958' },
-  { name: 'Contact Us', href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958' },
+  // { name: 'Blogs', href: 'https://nogozo.com/blog/' },
+  // { name: 'Terms & Conditions', href: 'https://nogozo.com/tnc/' },
+  // { name: 'Careers', href: 'https://www.linkedin.com/company/nogozocare/jobs/' },
+  // { name: 'Business Queries', href: 'https://api.whatsapp.com/send?text=Hi NOGOZO! I want to become Seller at NOGOZO Buy NOGOZO-Franchise Upgrade my Bookstore&phone=918979497958' },
+  // { name: 'Contact Us', href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958' },
 ];
 
 export const hero = {
-  title: "Buy Rent Sell Books with NOGOZO!",
-  subtitle: "India's First All in one book store to buy, rent & sell new as well used books with Free Home Delivery",
+  title: "Explore nearby shops on fingertips",
+  subtitle: "India's first fashion explorer app. Explore online, shop offline. Find exactly what you love, then simply head out to pick it up!",
   btnText: 'Download App',
   compText: '',
   image: HeroImg,
@@ -123,8 +127,8 @@ export const overview = {
 
 export const features = {
   feature1: {
-    pretitle: "NOGOZO's Sony Shark Tank India Experience",
-    title: 'NOGOZO Founders Pitching at Shark Tank India',
+    pretitle: "Klawth's Sony Shark Tank India Experience",
+    title: 'Klawth Founders Pitching at Shark Tank India',
     subtitle:
       "Imagine two young student founders taking the Shark Tank India stage by storm, armed with an innovative product that addresses the needs of students all across India. As they confidently presented their vision, the judges were blown away by their game-changing concept. Though they didn't walk away with a deal, these rising stars proved that age is just a number when it comes to building something truly impactful.",
     btnLink: 'Learn more',
@@ -133,9 +137,9 @@ export const features = {
   },
   feature2: {
     pretitle: 'Recognised by Startup India',
-    title: 'Startup India Certified - NOGOZO!',
+    title: 'Startup India Certified - Klawth!',
     subtitle:
-      "The Government of India Recognised the NOGOZO Startup under its initiative of StartupIndia in 2021 for it's groundbreaking impact in lives of students & Readers of India.",
+      "The Government of India Recognised the Klawth Startup under its initiative of StartupIndia in 2021 for it's groundbreaking impact in lives of students & Readers of India.",
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
@@ -144,25 +148,26 @@ export const features = {
     pretitle: 'Backed & Funded by UP Government',
     title: 'Up Govt Funded Startup',
     subtitle:
-     "Backed by the Uttar Pradesh Government and recognized as one of the top student startups, NOGOZO is revolutionizing book shopping experience of students with funding from the StartinUp initiative led by the state.",
+     "Backed by the Uttar Pradesh Government and recognized as one of the top student startups, Klawth is revolutionizing book shopping experience of students with funding from the StartinUp initiative led by the state.",
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
   },
   feature4: {
-    pretitle: 'How NOGOZO became a saviour during Covid-19?',
-    title: "NOGOZO's Platform Saved Covid-19 Spread",
+    pretitle: 'How Klawth became a saviour during Covid-19?',
+    title: "Klawth's Platform Saved Covid-19 Spread",
     subtitle:
-      "During the COVID-19 pandemic, NOGOZO Team generously provided their technology for free to prevent the spread of the virus in their city. As Featured in Dainik Jagran, over 1k+ citizens utilized the NOGOZO app to schedule essential shopping pickups and deliveries, reducing crowding at nearby stores as well as smoothing the fulfillment of their daily needs.",
+      "During the COVID-19 pandemic, Klawth Team generously provided their technology for free to prevent the spread of the virus in their city. As Featured in Dainik Jagran, over 1k+ citizens utilized the Klawth app to schedule essential shopping pickups and deliveries, reducing crowding at nearby stores as well as smoothing the fulfillment of their daily needs.",
     btnIcon: ArrowRightImg,
     image: Feature4Img,
   },
 };
 
 export const product = {
-  title: 'Trusted by more than 10k+ Students & Readers 📚👩‍🎓',
+  title: 'Trusted by more than 10k+ Customers',
   subtitle:
-    "With 5000+ Book Titles of 300+ Publishers, NOGOZO is India's No. 1 innovative Bookstore, emerging as the best choice among students & readers for all their needs from school textbooks to bestseller novels. Book Chahiye -  to NOGOZO Kar na yaar!",
+    // "With 50000+ Products of 100+ Brands, Klawth is India's No. 1 innovative fashion explorer, emerging as the best choice of indians for all type of fashion.",
+    "Imagine effortlessly discovering the latest fashion trends in your neighborhood, all from the comfort of your couch. With our platform, you can browse a curated selection of apparel from nearby shops, bringing the local shopping experience right to your fingertips. Say goodbye to long delivery waits and hactic returns; with us, you’ll discover what’s hot, just around the corner.",
   cards: [
     {
       icon: CardIconImg1,
@@ -235,7 +240,7 @@ export const testimonials = {
   clients: [
     {
       message:
-        'Platform with variety of books and that too at affordable price. I would definitely suggest to give it a try.',
+        'Platform with variety of clothes and that too at affordable price. I would definitely suggest to give it a try.',
       image: AvatarImg2,
       name: 'Rupali Verma',
       position: '',
@@ -243,7 +248,7 @@ export const testimonials = {
     },
     {
       message:
-        "Fantastic Book App for local one's (Agra) and the outsiders also... Great Delivery Service. Used books quality is superb.",
+        "Fantastic App for the local one's of Agra... Great Customer Service. Clothes quality is superb. Loved it!",
       image: AvatarImg5,
       name: 'Rubal Singh',
       position: '',
@@ -251,7 +256,7 @@ export const testimonials = {
     },
     {
       message:
-        "Loved the Cute UI of the app and amazing discounts on Used books and New books. Gonna order more :D",
+        "Loved the Cute UI of the app and amazing discounts on all of the products. Gonna order more :D",
       image: AvatarImg1,
       name: 'Kukum Chouhan',
       position: '',
@@ -259,7 +264,7 @@ export const testimonials = {
     },
     {
       message:
-        "From doorstep services to rentals, this application is amazing for a reader 📚. Thanks NOGOZO !!",
+        "Very innovative idea, this application is very helpful for the people of agra. Thanks Klawth !!",
       image: AvatarImg3,
       name: 'Devanshi Jain',
       position: '',
@@ -267,7 +272,7 @@ export const testimonials = {
     },
     {
       message:
-        "Best in this category. Really beneficial for book lovers to find books from various genres that too at nominal Price",
+        "Best app in this category. Really beneficial for people to find clothes while sitting at home only.",
       image: AvatarImg4,
       name: 'Kumar Gaurav',
       position: '',
@@ -292,13 +297,13 @@ export const footer = {
     { name: 'Careers', href: '/' },
     { name: 'Pricing', href: '/' },
     { name: 'Features', href: '/' },
-    { name: 'Blog', href: 'https://nogozo.com/blog/' },
-    { name: 'Terms of use', href: 'https://nogozo.com/tnc/' },
+    // { name: 'Blog', href: 'https://nogozo.com/blog/' },
+    // { name: 'Terms of use', href: 'https://nogozo.com/tnc/' },
   ],
   legal: [
-    { name: 'Terms of use', href: 'https://nogozo.com/tnc/' },
-    { name: 'Terms of conditions', href: 'https://nogozo.com/tnc/' },
-    { name: 'Privacy policy', href: 'https://nogozo.com/tnc/' }
+    // { name: 'Terms of use', href: 'https://nogozo.com/tnc/' },
+    // { name: 'Terms of conditions', href: 'https://nogozo.com/tnc/' },
+    // { name: 'Privacy policy', href: 'https://nogozo.com/tnc/' }
   ],
   newsletter: {
     title: 'Newsletter',
@@ -313,18 +318,18 @@ export const footer = {
 
 export const copyright = {
   link1: {
-    name: 'Privacy & Terms',
-    href: 'https://nogozo.com/tnc/',
+    name: '',
+    href: '/',
   },
   link2: {
-    name: 'Contact us',
-    href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958',
+    name: '',
+    href: 'https://api.whatsapp.com/send?text=Hi%20Klawth!&phone=918979497958',
   },
-  copyText: 'Copyright @ 2023 nogozo',
+  copyText: 'Copyright @ 2024 Klawth',
   social: [
-    { icon: WhatsappIcon, href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958' },
-    { icon: InstaIcon, href: 'https://www.instagram.com/nogozocare/' },
-    { icon: LinkedinIcon, href: 'https://www.linkedin.com/company/nogozocare/' },
+    // { icon: WhatsappIcon, href: 'https://api.whatsapp.com/send?text=Hi%20Klawth!&phone=918979497958'},
+    // { icon: InstaIcon, href: 'https://www.instagram.com/nogozocare/' },
+    // { icon: LinkedinIcon, href: 'https://www.linkedin.com/company/nogozocare/' },
     // { icon: GmailIcon, href: 'mailto:contact@nogozo.com' },
   ],
 };

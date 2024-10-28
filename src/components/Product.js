@@ -30,7 +30,7 @@ const Product = () => {
           </p>
         </div>
         {/* cards */}
-        <Cards />
+        {/* <Cards /> */}
       </div>
     </section>
   );
