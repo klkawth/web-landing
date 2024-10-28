@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary text-lg;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-dark;
+  }
+  .title,
+  .section-title {
+    @apply text-4xl lg:text-6xl mb-6 font-bold;
+  }
+  .heading {
+    @apply text-4xl lg:text-5xl mb-6 font-bold;
+  }
+  .h2 {
+    @apply text-4xl lg:text-7xl font-bold;
+  }
+  .h3 {
+    @apply text-3xl lg:text-5xl font-bold;
+  }
+  .pretitle {
+    @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-normal;
+  }
+  .lead {
+    @apply text-xl text-light font-normal mb-6;
+  }
+  .link {
+    @apply text-lg text-dark;
+  }
+  .section {
+    @apply py-2 lg:py-[50px];
+  }
+  .btn {
+    @apply rounded-lg transition flex justify-center items-center;
+  }
+  .btn-lg {
+    @apply h-[60px] px-2 text-xl font-normal;
+  }
+  .btn-md {
+    @apply h-[60px] px-[8px] text-lg font-normal;
+  }
+  .btn-sm {
+    @apply h-[48px] px-[16px] text-lg font-normal;
+  }
+  .btn-blue {
+    @apply bg-blue-500 text-white;
+  }
+  .btn-blue:hover {
+    @apply bg-blue-700;
+  }
+  .btn-sky {
+    @apply bg-sky-500 text-white;
+  }
+  .btn-sky:hover {
+    @apply bg-sky-700;
+  }
+  .btn-white {
+    @apply text-sky-500 bg-white hover:bg-white/90;
+  }
+  .btn-outline {
+    @apply bg-transparent text-sky-500 border border-sky-500 hover:bg-sky-500 hover:text-white;
+  }
+  .btn-link {
+    @apply text-sky-500 text-xl lg:text-2xl;
+  }
+}
