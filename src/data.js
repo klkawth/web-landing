@@ -1,7 +1,7 @@
 // import images
 // import LogoImg from '../src/assets/img/header/logo.svg';
 import LogoImg from '../src/assets/img/header/logo.png';
-import LogoImg2 from '../src/assets/img/klawth_logo_klawth.png';
+import LogoImg2 from '../src/assets/img/logo.png';
 
 // import HeroImg from '../src/assets/img/hero/image.svg';
 // import HeroImg from '../src/assets/img/home.gif';
@@ -62,9 +62,9 @@ export const header = {
 export const nav = [
   // { name: 'Blogs', href: 'https://nogozo.com/blog/' },
   // { name: 'Terms & Conditions', href: 'https://nogozo.com/tnc/' },
-  // { name: 'Careers', href: 'https://www.linkedin.com/company/nogozocare/jobs/' },
-  // { name: 'Business Queries', href: 'https://api.whatsapp.com/send?text=Hi NOGOZO! I want to become Seller at NOGOZO Buy NOGOZO-Franchise Upgrade my Bookstore&phone=918979497958' },
-  // { name: 'Contact Us', href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958' },
+  { name: 'Careers', href: 'https://www.linkedin.com/company/nogozocare/jobs/' },
+  { name: 'Business Queries', href: 'https://api.whatsapp.com/send?text=Hi NOGOZO! I want to become Seller at NOGOZO Buy NOGOZO-Franchise Upgrade my Bookstore&phone=918979497958' },
+  { name: 'Contact Us', href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958' },
 ];
 
 export const hero = {
