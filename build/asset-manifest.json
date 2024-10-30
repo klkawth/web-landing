@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ab6e6a7.css",
+    "main.js": "/static/js/main.bd1b2c4e.js",
+    "static/media/product.svg": "/static/media/product.1aceb347e1ff8afef062575ab5e0b9c8.svg",
+    "static/media/home.mp4": "/static/media/home.4cd23299109afb72fa72.mp4",
+    "static/media/feature1.jpg": "/static/media/feature1.f674deacdf1306b087db.jpg",
+    "static/media/logo.png": "/static/media/logo.61b130700f0fce6b646f.png",
+    "static/media/startupindia.webp": "/static/media/startupindia.5792dfa23523180fdb26.webp",
+    "static/media/startinup.webp": "/static/media/startinup.e78c243cb32a493269dd.webp",
+    "static/media/index.webp": "/static/media/index.417fb253997797667de4.webp",
+    "static/media/image2.svg": "/static/media/image2.3a18d7d1481447951e872032f57ae887.svg",
+    "static/media/image1.svg": "/static/media/image1.98d1d51a4955378a7f5b1b419a21c232.svg",
+    "static/media/icici2.png": "/static/media/icici2.31e564901c6d6807cae1.png",
+    "static/media/shiprocket.svg": "/static/media/shiprocket.6ad544449a18e9acb66d1e1c86281d1f.svg",
+    "static/media/delhivery.svg": "/static/media/delhivery.08a572a47664561835909fec927e58d6.svg",
+    "static/media/sti.png": "/static/media/sti.0944206bba2e03fc8f85.png",
+    "static/media/ecell.webp": "/static/media/ecell.537d3b66915297b12ed5.webp",
+    "static/media/aboutnogozo2.webp": "/static/media/aboutnogozo2.8431c2389217268cebbb.webp",
+    "static/media/aboutnogozo1.webp": "/static/media/aboutnogozo1.ec0489d068cb866393ea.webp",
+    "static/media/aboutnogozo3.webp": "/static/media/aboutnogozo3.dcbe84b24b1b3182520e.webp",
+    "static/media/paytm.svg": "/static/media/paytm.8983d09b481b2705ec27791f85ecac2d.svg",
+    "static/media/insta.svg": "/static/media/insta.e6bd21b17a2f70c70732c979accf6870.svg",
+    "static/media/bg.svg": "/static/media/bg.7d75a99c4f24b0aac1c8.svg",
+    "index.html": "/index.html",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.08292b37b382e0d2a8e31000ac764ff3.svg",
+    "static/media/icon2.svg": "/static/media/icon2.9c92fc72a54400be17ff376ea312f5de.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.a4602369bf049510b052403d78f0cc46.svg",
+    "static/media/googleplay.svg": "/static/media/googleplay.2a9ec8522095ee55da6ad18b2cf3af0e.svg",
+    "static/media/icon3.svg": "/static/media/icon3.4a53e25e4eac11c053b8800226d009c1.svg",
+    "static/media/icon1.svg": "/static/media/icon1.f9d916a82df5e09102278bf5d5e8f968.svg",
+    "static/media/arrow-right.svg": "/static/media/arrow-right.f4e18ac972d55636860ca375411680c0.svg",
+    "main.7ab6e6a7.css.map": "/static/css/main.7ab6e6a7.css.map",
+    "main.bd1b2c4e.js.map": "/static/js/main.bd1b2c4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ab6e6a7.css",
+    "static/js/main.bd1b2c4e.js"
+  ]
+}
