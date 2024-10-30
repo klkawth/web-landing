@@ -5,7 +5,8 @@ import LogoImg2 from '../src/assets/img/logo.png';
 
 // import HeroImg from '../src/assets/img/hero/image.svg';
 // import HeroImg from '../src/assets/img/home.gif';
-import HeroImg from '../src/assets/img/hero/home.mp4';
+import HeroImg from '../src/assets/img/hero.mp4';
+// import HeroImg from '../src/assets/img/hero/home.mp4';
 
 import OverviewProductImg from '../src/assets/img/overview/product.svg';
 // import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
@@ -68,7 +69,7 @@ export const nav = [
 ];
 
 export const hero = {
-  title: "Explore nearby shops on fingertips",
+  title: "Shop fashion from nearby shops",
   subtitle: "India's first fashion explorer app. Explore online, shop offline. Find exactly what you love, then simply head out to pick it up!",
   btnText: 'Download App',
   compText: '',
