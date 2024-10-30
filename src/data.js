@@ -70,7 +70,7 @@ export const nav = [
 
 export const hero = {
   title: "Shop fashion from nearby shops",
-  subtitle: "India's first fashion explorer app. Explore online, shop offline. Find exactly what you love, then simply head out to pick it up!",
+  subtitle: "India's No 1 fashion explorer app. Explore online, shop offline. Find exactly what you love, then simply head out to pick it up!",
   btnText: 'Download App',
   compText: '',
   image: HeroImg,
