@@ -63,9 +63,9 @@ export const header = {
 export const nav = [
   // { name: 'Blogs', href: 'https://nogozo.com/blog/' },
   // { name: 'Terms & Conditions', href: 'https://nogozo.com/tnc/' },
-  { name: 'Careers', href: 'https://www.linkedin.com/company/nogozocare/jobs/' },
-  { name: 'Business Queries', href: 'https://api.whatsapp.com/send?text=Hi NOGOZO! I want to become Seller at NOGOZO Buy NOGOZO-Franchise Upgrade my Bookstore&phone=918979497958' },
-  { name: 'Contact Us', href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958' },
+  { name: 'Careers', href: 'https://www.linkedin.com/company/klawth/jobs/' },
+  { name: 'Business Queries', href: 'https://api.whatsapp.com/send?text=Hi Klawth!&phone=918979497958' },
+  { name: 'Contact Us', href: 'https://api.whatsapp.com/send?text=Hi%Klawth!&phone=918979497958' },
 ];
 
 export const hero = {
@@ -131,7 +131,7 @@ export const features = {
     pretitle: "Klawth's Sony Shark Tank India Experience",
     title: 'Klawth Founders Pitching at Shark Tank India',
     subtitle:
-      "Imagine two young student founders taking the Shark Tank India stage by storm, armed with an innovative product that addresses the needs of students all across India. As they confidently presented their vision, the judges were blown away by their game-changing concept. Though they didn't walk away with a deal, these rising stars proved that age is just a number when it comes to building something truly impactful.",
+      "Imagine two young student founders taking the Shark Tank India stage by storm, armed with an innovative product that addresses the needs of people all across India. As they confidently presented their vision, the judges were blown away by their game-changing concept. Though they didn't walk away with a deal, these rising stars proved that age is just a number when it comes to building something truly impactful.",
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature1Img,
@@ -140,7 +140,7 @@ export const features = {
     pretitle: 'Recognised by Startup India',
     title: 'Startup India Certified - Klawth!',
     subtitle:
-      "The Government of India Recognised the Klawth Startup under its initiative of StartupIndia in 2021 for it's groundbreaking impact in lives of students & Readers of India.",
+      "The Government of India Recognised the Klawth Startup under its initiative of StartupIndia in 2021 for it's groundbreaking impact in lives of people.",
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
@@ -149,7 +149,7 @@ export const features = {
     pretitle: 'Backed & Funded by UP Government',
     title: 'Up Govt Funded Startup',
     subtitle:
-     "Backed by the Uttar Pradesh Government and recognized as one of the top student startups, Klawth is revolutionizing book shopping experience of students with funding from the StartinUp initiative led by the state.",
+     "Backed by the Uttar Pradesh Government and recognized as one of the top fashion startups, Klawth is revolutionizing shopping experience of students with funding from the StartinUp initiative led by the state.",
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
