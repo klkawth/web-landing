@@ -168,7 +168,7 @@ export const product = {
   title: 'Trusted by more than 10k+ Customers',
   subtitle:
     // "With 50000+ Products of 100+ Brands, Klawth is India's No. 1 innovative fashion explorer, emerging as the best choice of indians for all type of fashion.",
-    "Imagine effortlessly discovering the latest fashion trends in your neighborhood, all from the comfort of your couch. With our platform, you can browse a curated selection of apparel from nearby shops, bringing the local shopping experience right to your fingertips. Say goodbye to long delivery waits and hactic returns; with us, you’ll discover what’s hot, just around the corner.",
+    "Imagine a world where your favorite emerging fashion brands—those hidden gems of style—finally have a place to shine offline, without the massive costs of running their own stores. That’s exactly what we’re building! We create beautifully curated retail spaces where 10 to 30 apparel brands can showcase their products, giving them a powerful offline presence without the hassle of store management. Whether you're a growing fashion label or a shopper looking for something unique, our stores bring together the best of both worlds—exclusive designs, a seamless shopping experience, and a community-driven retail revolution. Welcome to the future of fashion retail! 🚀✨",
   cards: [
     {
       icon: CardIconImg1,

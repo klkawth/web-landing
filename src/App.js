@@ -40,7 +40,7 @@ const App = () => {
       {/* <Feature4 /> */}
       <Partners />
       {/* <Pricing /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* <Cta /> */}
       <Footer />
       {/* <div className='h-[4000px]'></div> */}
