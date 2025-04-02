@@ -40,7 +40,7 @@ const Pricing = () => {
                     cardIndex === index
                       ? 'bg-white shadow-2xl'
                       : 'border border-grey'
-                  } w-[350px] h-[500px] rounded-[12px] p-[40px] cursor-pointer transition-all`}
+                  } w-[350px] h-[300px] rounded-[12px] p-[40px] cursor-pointer transition-all`}
                 >
                   {/* card icon */}
                   <div className='mb-8'>
@@ -64,7 +64,7 @@ const Pricing = () => {
                       );
                     })}
                   </div>
-                  <div className='mb-10'>
+                  {/* <div className='mb-10'>
                     <div>
                       <span className='text-2xl font-semibold'>{price}/</span>
                       <span className='text-xl text-light font-light'>
@@ -72,9 +72,9 @@ const Pricing = () => {
                       </span>
                     </div>
                     <div className='text-base text-light'>{userAmount}</div>
-                  </div>
+                  </div> */}
                   {/* btn */}
-                  <button
+                  {/* <button
                     className={`${
                       cardIndex === index
                         ? 'bg-accent hover:bg-accentHover text-white'
@@ -83,7 +83,7 @@ const Pricing = () => {
                   >
                     <span>{btnText}</span>
                     <HiOutlineArrowNarrowRight />
-                  </button>
+                  </button> */}
                 </div>
               </div>
             );

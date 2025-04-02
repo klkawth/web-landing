@@ -69,8 +69,8 @@ export const nav = [
 ];
 
 export const hero = {
-  title: "Shop fashion from nearby shops",
-  subtitle: "India's No 1 fashion explorer app. Explore online, shop offline. Find exactly what you love, then simply head out to pick it up!",
+  title: "Discover and experience next-gen fashion",
+  subtitle: "Klawth – Where Gen Z fashion brands showcase their trendiest styles, and customers experience them firsthand",
   btnText: 'Download App',
   compText: '',
   image: HeroImg,
@@ -128,7 +128,7 @@ export const overview = {
 
 export const features = {
   feature1: {
-    pretitle: "Klawth's Sony Shark Tank India Experience",
+    pretitle: "Founder's previous venture experience",
     title: 'Klawth Founders Pitching at Shark Tank India',
     subtitle:
       "Imagine two young student founders taking the Shark Tank India stage by storm, armed with an innovative product that addresses the needs of people all across India. As they confidently presented their vision, the judges were blown away by their game-changing concept. Though they didn't walk away with a deal, these rising stars proved that age is just a number when it comes to building something truly impactful.",
@@ -165,7 +165,7 @@ export const features = {
 };
 
 export const product = {
-  title: 'Trusted by more than 10k+ Customers',
+  title: 'Retail revolution for brands & customers',
   subtitle:
     // "With 50000+ Products of 100+ Brands, Klawth is India's No. 1 innovative fashion explorer, emerging as the best choice of indians for all type of fashion.",
     "Imagine a world where your favorite emerging fashion brands—those hidden gems of style—finally have a place to shine offline, without the massive costs of running their own stores. That’s exactly what we’re building! We create beautifully curated retail spaces where 10 to 30 apparel brands can showcase their products, giving them a powerful offline presence without the hassle of store management. Whether you're a growing fashion label or a shopper looking for something unique, our stores bring together the best of both worlds—exclusive designs, a seamless shopping experience, and a community-driven retail revolution. Welcome to the future of fashion retail! 🚀✨",
@@ -192,15 +192,15 @@ export const product = {
 };
 
 export const pricing = {
-  title: 'Choose your flexible plan.',
+  title: 'Win Win for brands',
   cards: [
     {
       icon: PricingIcon1,
-      title: 'Starter Plan',
+      title: 'Offline Presence',
       services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
+        { name: 'Zero upfront cost' },
+        { name: 'Zero showroom rent' },
+        { name: 'No store management headache' },
       ],
       price: '$9.99',
       userAmount: 'up to 3 user + 1.99 per user',
@@ -209,11 +209,11 @@ export const pricing = {
     },
     {
       icon: PricingIcon2,
-      title: 'Silver Plan',
+      title: 'Faster Delivery',
       services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
+        { name: 'Better customer experience' },
+        { name: 'Zero warehouse cost' },
+        { name: 'No warehouse management headache' },
       ],
       price: '$19.99',
       userAmount: 'up to 3 user + 1.99 per user',
@@ -222,11 +222,15 @@ export const pricing = {
     },
     {
       icon: PricingIcon3,
-      title: 'Diamond Plan',
+      title: 'Customer Reach',
       services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
+        { name: 'New customers' },
+        { name: 'Brand visibility' },
+        // { name: 'Stronger brand recognition' },
+        { name: 'Access to diverse customer segments' },
+        // { name: '' },
+        // { name: '' },
+        // { name: '' },
       ],
       price: '$29.99',
       userAmount: 'up to 3 user + 1.99 per user',
@@ -326,7 +330,7 @@ export const copyright = {
     name: '',
     href: 'https://api.whatsapp.com/send?text=Hi%20Klawth!&phone=918979497958',
   },
-  copyText: 'Copyright @ 2024 Klawth',
+  copyText: 'Copyright @ 2025 Klawth',
   social: [
     // { icon: WhatsappIcon, href: 'https://api.whatsapp.com/send?text=Hi%20Klawth!&phone=918979497958'},
     // { icon: InstaIcon, href: 'https://www.instagram.com/nogozocare/' },
