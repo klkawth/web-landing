@@ -4,8 +4,8 @@ import LogoImg from '../src/assets/img/header/logo.png';
 import LogoImg2 from '../src/assets/img/logo.png';
 
 // import HeroImg from '../src/assets/img/hero/image.svg';
-// import HeroImg from '../src/assets/img/home.gif';
-import HeroImg from '../src/assets/img/hero.mp4';
+import HeroImg from '../src/assets/img/hero.png';
+// import HeroImg from '../src/assets/img/hero.mp4';
 // import HeroImg from '../src/assets/img/hero/home.mp4';
 
 import OverviewProductImg from '../src/assets/img/overview/product.svg';

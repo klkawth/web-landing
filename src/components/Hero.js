@@ -39,10 +39,10 @@ const Hero = () => {
           </div>
           {/* image */}
           <div className='flex-1' data-aos='fade-up' data-aos-delay='600' data-aos-offset='0'>
-            {/* <img src={image}  style={{width: 400}} alt='' /> */}
-            <video loop="true" autoplay="autoplay" muted>
+            <img src={image}  style={{width: 500}} alt='' />
+            {/* <video loop="true" autoplay="autoplay" muted>
               <source src={image} type="video/mp4"/>
-            </video>
+            </video> */}
           </div>
         </div>
       </div>
