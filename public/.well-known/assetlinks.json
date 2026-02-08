@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.klawth",
+      "sha256_cert_fingerprints": [
+        "67:A8:E2:05:22:11:DE:31:E3:BB:21:45:0E:7B:C2:9C:62:FD:F6:7A:11:5B:C5:14:23:1E:23:9D:9D:AE:DE:36"
+      ]
+    }
+  }
+]
