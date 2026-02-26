@@ -38,8 +38,8 @@ const App = () => {
       {/* <Feature3 /> */}
       {/* <Feature4 /> */}
       {/* <Partners /> */}
-      <Pricing />
-      <Testimonials />
+      {/* <Pricing />
+      <Testimonials /> */}
       {/* <Cta /> */}
       <Footer />
       {/* <div className='h-[4000px]'></div> */}

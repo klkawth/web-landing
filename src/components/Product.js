@@ -6,28 +6,25 @@ import Cards from './Cards';
 
 const Product = () => {
   // destructure product data
-  const { title, subtitle } = product;
+  const { title, subtitle, image } = product;
   return (
-    <section className='py-8 lg:py-10 bg-[#fafafa]'>
+    <section className='py-6 lg:py-8 bg-[#fafafa]'>
       <div className='container mx-auto px-6 lg:px-12'>
-        {/* title & subtitle - compact layout */}
-        <div className='flex flex-col lg:flex-row lg:items-start lg:justify-between lg:gap-x-12 gap-y-4'>
-          <h2
-            className='text-2xl lg:text-4xl font-bold text-dark flex-1 lg:max-w-[40%] mb-0'
-            data-aos='fade-up'
-            data-aos-offset='250'
-            data-aos-delay='200'
-          >
-            {title}
-          </h2>
-          <p
-            className='text-[#4a5568] lg:max-w-[500px] flex-1 text-base lg:text-lg leading-relaxed mb-0'
-            data-aos='fade-up'
-            data-aos-offset='250'
-            data-aos-delay='300'
-          >
-            {subtitle}
-          </p>
+        {/* Image left, content right */}
+        <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-8 gap-y-6'>
+          {/* image - left */}
+          <div className='flex-1 lg:max-w-[45%] order-2 lg:order-1' data-aos='fade-right' data-aos-offset='100'>
+            <img
+              src={image}
+              alt='Klawth retail revolution'
+              className='w-full max-h-[320px] lg:max-h-[380px] rounded-[12px] lg:rounded-[16px] shadow-md object-cover object-top'
+            />
+          </div>
+          {/* text - title then paragraph - right */}
+          <div className='flex-1 lg:max-w-[50%] order-1 lg:order-2' data-aos='fade-left' data-aos-offset='100'>
+            <h2 className='text-xl lg:text-3xl font-bold text-dark mb-3'>{title}</h2>
+            <p className='text-[#4a5568] text-base leading-relaxed mb-0'>{subtitle}</p>
+          </div>
         </div>
       </div>
     </section>

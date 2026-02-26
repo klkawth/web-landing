@@ -18,6 +18,7 @@ import OverviewProductImg from '../src/assets/img/overview/product.svg';
 // import SamsungImg from '../src/assets/img/overview/brands/samsung.svg';
 // import Feature1Img from '../src/assets/img/features/feature1-img.svg';
 import Feature1Img from '../src/assets/img/features/feature1.jpg';
+import ProductFeatureImg from '../src/assets/img/features/feature_1.png';
 import Feature2Img from '../src/assets/img/features/startupindia.webp';
 // import Feature2Img from '../src/assets/img/features/feature2-img.svg';
 import Feature3Img from '../src/assets/img/features/startinup.webp';
@@ -173,6 +174,7 @@ export const features = {
 
 export const product = {
   title: 'Retail revolution for brands & customers',
+  image: ProductFeatureImg,
   subtitle:
     // "With 50000+ Products of 100+ Brands, Klawth is India's No. 1 innovative fashion explorer, emerging as the best choice of indians for all type of fashion.",
     "Imagine a world where your favorite emerging fashion brands—those hidden gems of style—finally have a place to shine offline, without the massive costs of running their own stores. That’s exactly what we’re building! We create beautifully curated retail spaces where 10 to 30 apparel brands can showcase their products, giving them a powerful offline presence without the hassle of store management. Whether you're a growing fashion label or a shopper looking for something unique, our stores bring together the best of both worlds—exclusive designs, a seamless shopping experience, and a community-driven retail revolution. Welcome to the future of fashion retail! 🚀✨",
