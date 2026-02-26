@@ -5,6 +5,8 @@ import LogoImg2 from '../src/assets/img/logo.png';
 
 // import HeroImg from '../src/assets/img/hero/image.svg';
 import HeroImg from '../src/assets/img/hero.png';
+import HeroBgImg from '../src/assets/img/hero/hero_bg.png';
+import AppImg from '../src/assets/img/hero/app_img.png';
 // import HeroImg from '../src/assets/img/hero.mp4';
 // import HeroImg from '../src/assets/img/hero/home.mp4';
 
@@ -28,6 +30,9 @@ import CardIconImg3 from '../src/assets/img/product/cards/icon3.svg';
 import PricingIcon1 from '../src/assets/img/pricing/icon1.svg';
 import PricingIcon2 from '../src/assets/img/pricing/icon2.svg';
 import PricingIcon3 from '../src/assets/img/pricing/icon3.svg';
+import PricingBg1 from '../src/assets/img/pricing/bg1.png';
+import PricingBg2 from '../src/assets/img/pricing/bg2.png';
+import PricingBg3 from '../src/assets/img/pricing/bg3.png';
 import AvatarImg1 from '../src/assets/img/testimonial/avatar1.png';
 import AvatarImg2 from '../src/assets/img/testimonial/avatar2.png';
 import AvatarImg3 from '../src/assets/img/testimonial/avatar3.png';
@@ -35,10 +40,9 @@ import AvatarImg4 from '../src/assets/img/testimonial/avatar4.png';
 import AvatarImg5 from '../src/assets/img/testimonial/avatar5.png';
 import CtaImg1 from '../src/assets/img/cta/image1.svg';
 import CtaImg2 from '../src/assets/img/cta/image2.svg';
-// import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
-// import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
-import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
-import InstaIcon from '../src/assets/img/copyright/insta.svg';
+import LinkedinIcon from '../src/assets/img/footer/linkedin.png';
+import InstagramIcon from '../src/assets/img/footer/instagram.png';
+import FacebookIcon from '../src/assets/img/footer/facebook.png';
 import WhatsappIcon from '../src/assets/img/copyright/whatsapp.svg';
 // import GmailIcon from '../src/assets/img/copyright/gmail.svg';
 import Paytm from '../src/assets/img/overview/brands/paytm.svg';
@@ -70,10 +74,13 @@ export const nav = [
 
 export const hero = {
   title: "Discover and experience next-gen fashion",
-  subtitle: "Klawth – Where Gen Z fashion brands showcase their trendiest styles, and customers experience them firsthand",
+  subtitle: "Download Klawth for exclusive collections and a seamless fashion shopping experience.",
   btnText: 'Download App',
-  compText: '',
+  compText: 'Transform Your Experience',
   image: HeroImg,
+  logo: LogoImg2,
+  background: HeroBgImg,
+  appImage: AppImg,
 };
 
 export const overview = {
@@ -196,6 +203,7 @@ export const pricing = {
   cards: [
     {
       icon: PricingIcon1,
+      bgImage: PricingBg1,
       title: 'Offline Presence',
       services: [
         { name: 'Zero upfront cost' },
@@ -209,6 +217,7 @@ export const pricing = {
     },
     {
       icon: PricingIcon2,
+      bgImage: PricingBg2,
       title: 'Faster Delivery',
       services: [
         { name: 'Better customer experience' },
@@ -222,6 +231,7 @@ export const pricing = {
     },
     {
       icon: PricingIcon3,
+      bgImage: PricingBg3,
       title: 'Customer Reach',
       services: [
         { name: 'New customers' },
@@ -295,7 +305,14 @@ export const cta = {
 };
 
 export const footer = {
-  logo: LogoImg,
+  logo: LogoImg2,
+  download: {
+    headline: 'Ready to Elevate Your Wardrobe?',
+    title: 'Download Mobile App',
+    tagline: 'Download Klawth & experience next-gen fashion today!',
+    appStoreLink: 'https://apps.apple.com/app/klawth',
+    playStoreLink: 'https://play.google.com/store/apps/details?id=com.klawth.app',
+  },
   links: [
     { name: 'Home', href: '/' },
     { name: 'About us', href: '/' },
@@ -332,9 +349,8 @@ export const copyright = {
   },
   copyText: 'Copyright @ 2025 Klawth',
   social: [
-    // { icon: WhatsappIcon, href: 'https://api.whatsapp.com/send?text=Hi%20Klawth!&phone=918979497958'},
-    // { icon: InstaIcon, href: 'https://www.instagram.com/nogozocare/' },
-    // { icon: LinkedinIcon, href: 'https://www.linkedin.com/company/nogozocare/' },
-    // { icon: GmailIcon, href: 'mailto:contact@nogozo.com' },
+    { icon: LinkedinIcon, href: 'https://www.linkedin.com/company/klawth/', label: 'LinkedIn' },
+    { icon: InstagramIcon, href: 'https://www.instagram.com/klawth.fashion/', label: 'Instagram' },
+    { icon: FacebookIcon, href: 'https://www.facebook.com/klawth', label: 'Facebook' },
   ],
 };

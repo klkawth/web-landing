@@ -8,7 +8,7 @@ const Testimonials = () => {
   // destructure testimonials
   const { title, clients } = testimonials;
   return (
-    <section className='section' style={{marginTop: 35}}>
+    <section className='section py-16 lg:py-20'>
       <div className='container mx-auto'>
         {/* title */}
         {/* <div className='pretitle'>It's Your support & wishes that constantly encourages us to build klawth a best place</div> */}
