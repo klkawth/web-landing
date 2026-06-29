@@ -74,8 +74,8 @@ export const nav = [
 ];
 
 export const hero = {
-  title: "Discover and experience next-gen fashion",
-  subtitle: "Download Klawth for exclusive collections and a seamless fashion shopping experience.",
+  title: "Discover, Compare, Shop.",
+  subtitle: "Discover clothing from multiple online shopping platforms, compare prices across e-commerce websites, and find the best deal—all in one app.",
   btnText: 'Download App',
   compText: 'Transform Your Experience',
   image: HeroImg,
@@ -176,8 +176,9 @@ export const product = {
   title: 'Retail revolution for brands & customers',
   image: ProductFeatureImg,
   subtitle:
+  "Klawth reimagines online fashion discovery by bringing clothing from multiple e-commerce platforms into one seamless experience. Instead of switching between shopping apps and websites, explore thousands of styles in one place, compare prices across leading online retailers, and discover the best value before you buy. Whether you're searching for everyday essentials, trending outfits, or your next statement piece, KlawTH makes it effortless to browse, compare, and save your favorite finds. Spend less time searching and more time discovering fashion you'll love, with a smarter and more enjoyable way to explore the world of online shopping.",
     // "With 50000+ Products of 100+ Brands, Klawth is India's No. 1 innovative fashion explorer, emerging as the best choice of indians for all type of fashion.",
-    "Imagine a world where your favorite emerging fashion brands—those hidden gems of style—finally have a place to shine offline, without the massive costs of running their own stores. That’s exactly what we’re building! We create beautifully curated retail spaces where 10 to 30 apparel brands can showcase their products, giving them a powerful offline presence without the hassle of store management. Whether you're a growing fashion label or a shopper looking for something unique, our stores bring together the best of both worlds—exclusive designs, a seamless shopping experience, and a community-driven retail revolution. Welcome to the future of fashion retail! 🚀✨",
+    // "Imagine a world where your favorite emerging fashion brands—those hidden gems of style—finally have a place to shine offline, without the massive costs of running their own stores. That’s exactly what we’re building! We create beautifully curated retail spaces where 10 to 30 apparel brands can showcase their products, giving them a powerful offline presence without the hassle of store management. Whether you're a growing fashion label or a shopper looking for something unique, our stores bring together the best of both worlds—exclusive designs, a seamless shopping experience, and a community-driven retail revolution. Welcome to the future of fashion retail! 🚀✨",
   cards: [
     {
       icon: CardIconImg1,
