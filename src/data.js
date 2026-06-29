@@ -1,7 +1,7 @@
 // import images
 // import LogoImg from '../src/assets/img/header/logo.svg';
 import LogoImg from '../src/assets/img/header/logo.png';
-import LogoImg2 from '../src/assets/img/logo.png';
+import LogoImg2 from '../src/assets/img/logo_bg_remove.png';
 
 // import HeroImg from '../src/assets/img/hero/image.svg';
 import HeroImg from '../src/assets/img/hero.png';
@@ -354,6 +354,6 @@ export const copyright = {
   social: [
     { icon: LinkedinIcon, href: 'https://www.linkedin.com/company/klawth/', label: 'LinkedIn' },
     { icon: InstagramIcon, href: 'https://www.instagram.com/klawth.fashion/', label: 'Instagram' },
-    { icon: FacebookIcon, href: 'https://www.facebook.com/klawth', label: 'Facebook' },
+    // { icon: FacebookIcon, href: 'https://www.facebook.com/klawth', label: 'Facebook' },
   ],
 };
